@@ -1,12 +1,12 @@
-﻿Question 1:
-After running 2 times the outputs are: 158 56 109
+
+After running 2 times the outputs are: 
+
 we found out that it doesn't show 15000 .The reason we think this happens  because there were a lot of cases when 2 or 3 of the processes read the same value then updated with +1.So it didn’t get incremented three times.Also sometimes the value got decreased.
 
 
-Question 2:
+
 In the best possible case we the result was between the range will be between (1-15000)
 
-Question 3:
 The code for this task is  written in modified_task2.c .We have also written the count.c that was required for this task.
 Instead of parallel running the processes I have modified it to run in sequential manner. This way
 each process runs without affecting other and we get 15000 in the end.
