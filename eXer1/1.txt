@@ -1,0 +1,4 @@
+﻿The program was not working as it was intended. We were unable to get the desired output which was the summation of number from 1 to n >0.
+We were only getting addition of the first half i.e only the output of function A() is being returned.
+
+

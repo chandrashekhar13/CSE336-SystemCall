@@ -1,0 +1,4 @@
+﻿To fix our issues we used some POSIX API system calls
+
+Child process was not returning the result to child process so used void exit(int status),which returns the status value to the parent process. We used  the wait() function which blocks the calling process until one of its child processes exits or a signal is received. We used value of WEXITSTATUS(status) to Total, which adds value function B() to the final result.
+
